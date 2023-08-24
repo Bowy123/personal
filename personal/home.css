@@ -1,0 +1,126 @@
+*{
+    text-decoration: none;
+    margin: 10px;
+}
+
+body{
+    background-image: url(images/istockphoto-1400711760-612x612.jpg);
+    background-attachment: fixed;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h2 {
+    font-weight: 800;
+    font-size: 36px;    
+}
+header h2 span {
+color: rgb(248, 2, 236);
+}
+.nav-bar a{
+    margin: 15px;
+    color: rgb(0, 250, 208);
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 1px;   
+}
+
+.nav-bar :hover,
+.nav-bar a.active {
+    color: rgb(255, 0, 234);
+}
+.container{
+    margin-top: 20vh;
+    width: 46vw;
+}
+.container h3{
+    font-weight: 800;
+    font-size: 36px;
+}
+.container h1{
+    font-weight: 800;
+    font-size: 56px;
+}
+.container h1 span,
+.container p span {
+    color: #0ef;
+}
+.description {
+    font-weight: 800;
+    font-size: 20px;
+    width: 46vw;
+    text-align: justify;
+}
+
+.container p{
+    font-weight: 800;
+    font-size: 36px;
+}
+.image {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    margin-top: 1rem;
+    height: 3rem;
+    background: transparent;
+    border: 0.2rem solid #0ef;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: rgb(240, 74, 190);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .2s linear;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -ms-transition: .2s linear;
+    -o-transition: .2s linear;
+}
+.social-media :hover{
+    background-color: #0ef;
+    color: white;
+    box-shadow: 0 0 1rem 0px #0ef;
+}
+
+.btn {
+    margin-top: -1rem;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #0ef;
+    box-shadow: 0 0 1rem #0ef;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    color: black;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.btn:hover {
+    box-shadow: none;
+}
